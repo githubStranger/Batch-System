@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* Navbar */
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 8.5em;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 17px 24px;
+}
+
+#logo img {
+    height: 30px;
+    margin-right: 8px;
+}
+
+#navbar span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+   }
+
+#navbar ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 9px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.download {
+    margin-left: 37rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 35px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+/* Section-1 */
+
+
+.header{
+    
+    display: flex;
+    padding: 4px 120px;
+}
+
+.header-image img {
+    height: 740px;
+    width: 620px;
+    margin-left: 10rem;
+    padding: 2px 3px;
+}
+
+.header-content {
+    max-width: 600px;
+    z-index: 1;
+    background: url('bg.png') no-repeat center top;
+    margin-left: 4em;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    margin-bottom: 80px;
+    height: 80px; 
+    width: 625px;
+    margin-top: 2em;
+}
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.header-buttons .btn-primary {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.header-buttons .btn-secondary {
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.container{
+    display: grid;
+}
+
+.container img{
+    height: 20em;
+    width: 30em;
+    margin-bottom: 2em;
+    margin-top: -20em;
+    margin-left: 8em;
+}
+
+
+/* Section-2 */
+
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 20px;
+    margin-left: 5em;
+}
+
+.phone img {
+    height: 32rem;
+    width: 30rem;
+    margin-left: 7em;
+}
+
+.features {
+    margin-left: 18em;
+}
+
+.features h2 {
+    color: #FF6565;
+    margin: 0;
+    font-size: 24px;
+    padding: 2px;
+    font-weight: 200;
+}
+
+.features h1 {
+    font-size: 36px;
+    margin: 10px 0 30px;
+    font-weight: 900;
+}
+
+.feature-item{
+     display: flex;
+     align-items: flex-start;
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+.side-icon{
+    margin-right: 2px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+   padding-bottom: 2px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   width: 34em;
+   font-weight: 600;
+}
+
+
+/* Section-3 */
+
+
+.container-3 {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 20px;
+    margin-left: 15em;
+}
+
+.content-2 {
+    width: 497px;
+}
+
+.content-2 h2 {
+    color: #FF6565;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.content-2 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.feature2-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.feature2-icon img {
+    max-width: 40px;
+    margin-right: 20px;
+    margin-right: 2px;
+}
+
+.feature2-text h3 {
+    font-size: 30px;
+    font-weight: 900
+}
+
+.feature2-text p {
+    font-size: 18px;
+    color: #666;
+}
+
+.phone-2 img {
+    height: 32rem;
+    width: 30rem;
+    margin-left: 10em;
+}
